@@ -693,7 +693,9 @@ def help(role):
         print("=========== HELP ===========")
         print("1. login")
         print("   Untuk masuk menggunakan akun")
-        print("2. exit")
+        print("2. load")
+        print("   Untuk memuat data yang sesuai dengan struktur data eksternal")
+        print("3. exit")
         print("   Untuk keluar dari program dan kembali ke terminal")
 
     elif role[4] == "bandung_bondowoso": #Bandung Bondowoso
@@ -716,7 +718,9 @@ def help(role):
         print("   Untuk mengetahui progress pembangunan candi")
         print("9. save")
         print("   Untuk menyimpan data yang berada di program sesuai dengan struktur data eksternal")
-        print("10. exit")
+        print("10. load")
+        print("   Untuk memuat data yang sesuai dengan struktur data eksternal")
+        print("11. exit")
         print("   Untuk keluar dari program dan kembali ke terminal")
 
     elif role[4] == "roro_jonggrang": #Roro Jonggrang
@@ -726,10 +730,12 @@ def help(role):
         print("2. hancurkancandi")
         print("   Untuk menghancurkan candi yang tersedia")
         print("3. ayamberkokok")
-        print("   Untuk memeriksa jumlah candi yang berhasil dibangun, mengetahui pemenangnya, dan mengakhiri permainan yang kemudian program akan otomatis keluar")
+        print("   Untuk memeriksa jumlah candi yang berhasil dibangun, mengetahui pemenangnya, dan mengakhiri permainan yang kemudian program akan otomatis terkeluar")
         print("4. save")
         print("   Untuk menyimpan data yang berada di program sesuai dengan struktur data eksternal")
-        print("5. exit")
+        print("5. load")
+        print("   Untuk memuat data yang sesuai dengan struktur data eksternal")
+        print("6. exit")
         print("   Untuk keluar dari program dan kembali ke terminal")
         
     elif role[4] == "Pengumpul": #Jin Pengumpul
@@ -740,7 +746,9 @@ def help(role):
         print("   Untuk mengumpulkan resource candi")
         print("3. save")
         print("   Untuk menyimpan data yang berada di program sesuai dengan struktur data eksternal")
-        print("4. exit")
+        print("4. load")
+        print("   Untuk memuat data yang sesuai dengan struktur data eksternal")
+        print("5. exit")
         print("   Untuk keluar dari program dan kembali ke terminal")
        
     elif role[4] == "Pembangun": #Jin Pembangun
@@ -751,7 +759,9 @@ def help(role):
         print("   Untuk membangun candi")
         print("3. save")
         print("   Untuk menyimpan data yang berada di program sesuai dengan struktur data eksternal")
-        print("4. exit")
+        print("4. load")
+        print("   Untuk memuat data yang sesuai dengan struktur data eksternal")
+        print("5. exit")
         print("   Untuk keluar dari program dan kembali ke terminal")
 
 #------------------------------------------------------------------------------------------------------------------------------------
